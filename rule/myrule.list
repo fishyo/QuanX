@@ -1,0 +1,13 @@
+host, showimg.caixin.com, reject
+host-keyword, duolingo.cn, proxy
+host-keyword, duolingo.com, proxy
+host, royaleapi.com, proxy
+host-keyword, codecademy.com, proxy
+host, expo.io, proxy
+host, substack.com, proxy
+host-keyword, https://api-one.wallstcn.com/apiv1/advertising/ads/, reject
+host, k.caixin.com, reject
+host, api.mapbox.com, reject
+host-keyword, get_ad, reject
+host, https://api5-bj.ninebot.com/v5/advertisement/get_ad, reject
+host-keyword, rmd-image, reject
