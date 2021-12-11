@@ -1,4 +1,3 @@
-host, showimg.caixin.com, reject
 host-keyword, duolingo.cn, proxy
 host-keyword, duolingo.com, proxy
 host, royaleapi.com, proxy
