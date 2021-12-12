@@ -5,23 +5,22 @@
             "config": "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=false"
         },
         {
-            "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, tag=nfzm-签到, img-url=chart.bar.doc.horizontal.fill.system, enabled=true",
-            "addons": "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt"
+            "config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, tag=nfzm-签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/nfzm.png enabled=true"
         },
         {
-            "config": "0 2 6 * * ? https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/mcdd.png, enabled=false"
+            "config": "0 2 6 * * ? https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=false"
         },
         {
-            "config": "1 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/Orz-3/task/master/mcdd.png, enabled=true"
+            "config": "1 6 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/mcdd.png, enabled=true"
         },
         {
-            "config": "15 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png, enabled=true"
+            "config": "15 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png, enabled=true"
         },
         {
-            "config": "0 6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png, enabled=true"
+            "config": "0 6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png, enabled=true"
         },
         {
-            "config": "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅,img-url=https://raw.githubusercontent.com/Orz-3/task/master/ximalaya.png, enabled=true"
+            "config": "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ximalaya.png, enabled=true"
         }
     ],
     "description": "This is a task list ."
