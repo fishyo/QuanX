@@ -8,7 +8,7 @@ host, substack.com, proxy
 host, k.caixin.com, reject
 host, api.mapbox.com, reject
 host-keyword, get_ad, reject
-host-keyword, https://api5-bj.ninebot.com/v5/advertisement/get_ad, reject
+;host-keyword, https://api5-bj.ninebot.com/v5/advertisement/get_ad, reject
 host, gg.caixin.com, reject
 host-keyword, rmd-image, reject
 host, errlog.umeng.com, reject
