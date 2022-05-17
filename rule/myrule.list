@@ -5,7 +5,6 @@ host, royaleapi.com, proxy
 host-keyword, codecademy.com, proxy
 host, expo.io, proxy
 host, substack.com, proxy
-host-keyword, https://api-one.wallstcn.com/apiv1/advertising/ads/, reject
 host, k.caixin.com, reject
 host, api.mapbox.com, reject
 host-keyword, get_ad, reject
