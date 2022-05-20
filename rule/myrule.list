@@ -50,4 +50,4 @@ host, me.xdrig.com, reject
 host, vortex.data.microsoft.com, reject
 host, metrics.icloud.com, reject
 host, firebaselogging-pa.googleapis.com, reject
-
+host-keyword, jsdelivr, proxy
