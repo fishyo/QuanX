@@ -9,7 +9,7 @@ host, expo.io, proxy
 host, substack.com, proxy
 host, api.mapbox.com, reject
 host-keyword, get_ad, reject
-host-keyword, https://api5-bj.ninebot.com/v5/advertisement/get_ad, reject
+host-keyword, api5-bj.ninebot.com/v5/advertisement/get_ad, reject
 host-keyword, umeng, reject
 host-keyword, rmd-image, reject
 host, ulogs.umengcloud.com, reject
