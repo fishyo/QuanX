@@ -51,17 +51,3 @@ host, clientservices.googleapis.com, reject
 host, youtubei.googleapis.com, reject
 host-keyword, jsdelivr, proxy
 
-USER-AGENT,com.google.ios.youtube*,slash
-USER-AGENT,YouTube*,YouTube
-DOMAIN-SUFFIX,googlevideo.com,slash
-DOMAIN-SUFFIX,withyoutube.com,slash
-DOMAIN-SUFFIX,youtu.be,slash
-DOMAIN-SUFFIX,youtube.com,slash
-DOMAIN-SUFFIX,youtubeeducation.com,slash
-DOMAIN-SUFFIX,youtubegaming.com,slash
-DOMAIN-SUFFIX,youtubekids.com,slash
-DOMAIN-SUFFIX,youtube-nocookie.com,slash
-DOMAIN-SUFFIX,yt.be,slash
-DOMAIN-SUFFIX,ytimg.com,slash
-DOMAIN,youtubei.googleapis.com,slash
-DOMAIN,yt3.ggpht.com,slash
