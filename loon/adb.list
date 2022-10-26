@@ -8,7 +8,6 @@ DOMAIN,gd-stats.jpush.cn
 DOMAIN,cstm.baidu.com
 DOMAIN,ws.mmstat.com
 DOMAIN,web-player-tracker.biliapi.net
-DOMAIN,www.google-analytics.com
 DOMAIN,dataflow.biliapi.com
 DOMAIN,hm.baidu.com
 DOMAIN,adash.man.aliyuncs.com
@@ -18,8 +17,6 @@ DOMAIN,wgo.mmstat.com
 DOMAIN,ap.cpatrk.net
 DOMAIN,me.cpatrk.net
 DOMAIN,api.growingio.com
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,www.googletagmanager.com
 DOMAIN,s.jpush.cn
 DOMAIN,audid-api.taobao.com
 DOMAIN,ca.iadsdk.apple.com
