@@ -1,0 +1,37 @@
+[MITM]
+hostname = api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,api.douban.com,api.m.jd.com,ms.jr.jd.com,flowplus.meituan.net,mp.weixin.qq.com,api-one.wallstcn.com,www.xiaohongshu.com
+
+[Rewrite]
+# > douban - api.douban.com
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ reject-200
+
+# > JD - api.m.jd.com
+# ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts reject-200
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ reject-200
+# > JDJinRong - ms.jr.jd.com
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo reject-200
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture reject-200
+
+# > Meituan-Dianping - flowplus.meituan.net
+#^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$ reject-200
+#^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg reject-200
+#^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp reject-200
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture reject-200
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) reject-200
+
+# > Tencent WeChat - mp.weixin.qq.com
+# ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) reject-200
+
+# > WallStCN - api-one.wallstcn.com
+^https?:\/\/api-one\.wallstcn\.com\/apiv\d\/advertising\/ reject-200
+
+# > Xueqiu - api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/promotion\/(display_cache|display_ad|feed_display|search_ad) - reject
+^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad) - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/brand\/search\/v1\.json - reject
+^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
+
+# > Xiaohongshu - www.xiaohongshu.com
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config reject-200
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ reject-200
