@@ -20,7 +20,7 @@ const headers = {
 'Referer' : `https://api5-h5-app-bj.ninebot.com/h5Items/`,
 'Accept-Language' : `zh-CN,zh-Hans;q=0.9`,
 'Accept' : `application/json, text/plain, */*`
-};z
+};
 const body = `{"language":"zh-Hans-CN"}`;
 
 const myRequest = {
