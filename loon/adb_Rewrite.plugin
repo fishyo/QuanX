@@ -1,7 +1,11 @@
 [MITM]
-hostname = api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,api.douban.com,api.m.jd.com,ms.jr.jd.com,flowplus.meituan.net,mp.weixin.qq.com,api-one.wallstcn.com,www.xiaohongshu.com
+hostname = *.google.cn,api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,api.douban.com,api.m.jd.com,ms.jr.jd.com,flowplus.meituan.net,mp.weixin.qq.com,api-one.wallstcn.com,www.xiaohongshu.com
 
 [Rewrite]
+# Redirect Google Search Service
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+^https?:\/\/(ditu|maps)\.google\.cn https://maps.google.com 302
+^https?:\/\/translate\.google\.cn https://translate.google.com 302
 # > douban - api.douban.com
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ reject-200
 
