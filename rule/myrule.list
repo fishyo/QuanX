@@ -1,14 +1,17 @@
+# caixin
 host, gg.caixin.com, reject
 host, k.caixin.com, reject
 host, showimg.caixin.com, reject
+
+# PayPal
 host-keyword, paypal, proxy
 host, paypalobjects, proxy
-host-keyword, duolingo, proxy
+
 host-keyword, codecademy.com, proxy
 host, expo.io, proxy
 host, substack.com, proxy
 host, api.mapbox.com, reject
-host-keyword, get_ad, reject
+
 host-keyword, umeng, reject
 host-keyword, rmd-image, reject
 host, ulogs.umengcloud.com, reject
@@ -51,6 +54,31 @@ host, youtubei.googleapis.com, reject
 host-keyword, jsdelivr, proxy
 
 # zhihu
-IP-CIDR,118.89.204.198/32,REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+ip-cidr,118.89.204.198/32,REJECT
+ip6-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 
+# brawlstars
+host-suffix, brawlstars.com, direct
+host-suffix, brawlstarsgame.com, direct
+ ip-cidr,13.210.25.233/32, direct
+ ip-cidr,13.212.170.102/32, direct
+ ip-cidr,13.212.171.212/32, direct
+ ip-cidr,15.161.130.86/32, direct
+ ip-cidr,15.254.1.17/32, direct
+ ip-cidr,162.62.33.45/32, direct
+ ip-cidr,162.62.33.70/32, direct
+ ip-cidr,162.62.34.10/32, direct
+ ip-cidr,18.141.176.65/32, direct
+ ip-cidr,18.156.137.147/32, direct
+ ip-cidr,18.231.148.103/32, direct
+ ip-cidr,3.1.80.68/32, direct
+ ip-cidr,3.25.190.152/32, direct
+ ip-cidr,3.82.147.36/32, direct
+ ip-cidr,34.220.160.16/32, direct
+ ip-cidr,35.154.64.7/32, direct
+ ip-cidr,35.72.32.125/32, direct
+ ip-cidr,52.13.150.128/32, direct
+ ip-cidr,52.13.42.120/32, direct
+ ip-cidr,52.50.131.212/32, direct
+ ip-cidr,54.207.168.84/32, direct
+ ip-cidr,54.248.64.192/32, direct
