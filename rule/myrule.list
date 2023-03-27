@@ -35,7 +35,15 @@ host, hm.baidu.com, reject
 host, adash.man.aliyuncs.com, reject
 host, googleads.g.doubleclick.net, reject
 host, adashx.m.taobao.com, reject
+host, app-measurement.com, reject
+host, incoming.telemetry.mozilla.org, reject
 host, wgo.mmstat.com, reject
+host, acs.m.taobao.com, reject
+host, h-adashx.ut.taobao.com, reject
+host, tracking.miui.com, reject
+host, rp.hpplay.cn, reject
+host, s-gm.mmstat.com, reject
+host, yun-hl.3g.qq.com, reject
 host, api.growingio.com, reject
 host, adse.ximalaya.com, reject
 host, adash.m.taobao.com, reject
