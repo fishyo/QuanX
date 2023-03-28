@@ -60,6 +60,8 @@ host, firebaselogging-pa.googleapis.com, reject
 host, clientservices.googleapis.com, reject
 host, youtubei.googleapis.com, reject
 host-keyword, jsdelivr, proxy
+host-suffix,adsmind.gdtimg.com,reject
+host-keyword,adsmind,reject
 
 # zhihu
 ip-cidr,118.89.204.198/32,REJECT
