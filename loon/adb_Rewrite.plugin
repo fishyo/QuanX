@@ -25,7 +25,7 @@ hostname = *.google.cn,api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.17
 ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) reject-200
 
 # > Tencent WeChat - mp.weixin.qq.com
-# ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) reject-200
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement) reject-200
 
 # > WallStCN - api-one.wallstcn.com
 ^https?:\/\/api-one\.wallstcn\.com\/apiv\d\/advertising\/ reject-200

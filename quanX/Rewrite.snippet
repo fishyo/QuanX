@@ -1,0 +1,39 @@
+hostname = *.google.cn, api.21jingji.com, acs.m.taobao.com, cn-acs.m.cainiao.com, gw.alicdn.com, heic.alicdn.com, gw.alicdn.com,  
+
+# Redirect Google Service
+^https?://(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?://(ditu|maps)\.google\.cn url 302 https://maps.google.com
+^https?://translate\.google\.cn url 302 https://translate.google.com
+
+# Redirect Bing
+^https://bncdn\.bing\.com url 307 https://www.bing.com
+^https://www\.bing\.cn url 302 https://www.bing.com
+^https://cn\.bing\.com url 302 https://www.bing.com
+
+# Advertising Block
+# 0~9
+# > 21st Century Business Herald - api.21jingji.com
+^https?://api\.21jingji\.com/ad/ url reject
+
+# A
+# --- (Alibaba) ---
+# > Alibaba - acs.m.taobao.com
+^https?://acs\.m\.taobao\.com/gw/mtop\.alibaba\.advertisementservice\.getadv/ url reject-200
+# > Cainiao - cn-acs.m.cainiao.com
+^https?://cn-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn/ url reject-200
+# > Taobao - gw.alicdn.com,heic.alicdn.com
+^https?://(gw|heic)\.alicdn\.com/imgextra/\w{2}/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ url reject-200
+# > Fliggy - gw.alicdn.com
+^https?://gw\.alicdn\.com/imgextra/\w{2}/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ url reject-200
+# > eTao - acs.m.taobao.com
+^https?://acs\.m\.taobao\.com/gw/mtop\.etao\.noah\.query/.+tao_splash url reject-200
+^https?://acs\.m\.taobao\.com/gw/mtop\.alimama\.etao\.config\.query/.+?etao_advertise url reject-200
+# > Taopiaopiao - acs.m.taobao.com
+^https?://acs\.m\.taobao\.com/gw/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)/ url reject-200
+# > AMap - amap-aos-info-nogw.amap.com,m*.amap.com,optimus-ads.amap.com,render-oss-cdn.amap.com,sns.amap.com
+^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ url reject-200
+^https?://m\d\.amap\.com/ws/message/notice/list? url reject-200
+^https?://m\d\.amap\.com/ws/valueadded/alimama/splash_screen? url reject-200
+^https?://optimus-ads\.amap\.com/uploadimg/ url reject-200
+^https?://render-oss-cdn\.amap\.com/render/studio-dev/image/ url reject-200
+^https?://sns\.amap\.com/ws/msgbox/pull? url reject-200
